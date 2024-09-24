@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+:root{
+    --background-color: hsl(212, 45%, 89%);
+    --heading-text: hsl(218, 44%, 22%);
+    --body-text: hsl(216, 15%, 48%);
+    --card-body: hsl(0,0%,100%);
+}
+
+/*Color Style*/
+html {
+    background-color: var(--background-color);
+    /*width: 50%;*/
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1.QR-Card {
+    font-family: Outfit, sans-serif;    /*Set font style*/
+    color: var(--heading-text);
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 22px;
+
+
+}
+p.QR-Card {
+    color: var(--body-text);
+    font-family: Outfit, sans-serif; /*set font style*/
+    font-weight: 400;
+    padding-top: 21px;
+    font-size: 15px;
+    width: 256px;
+
+}
+
+
+
+/*Card Style*/
+div.QR-Card > * {
+    overflow: auto;
+    width: 90%;
+}
+
+body > div.QR-Card {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+div.QR-Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-body);
+    border-radius: 20px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+
+
+    text-align: center;
+    width: 30%;
+
+}
+
+img {
+    /*display: flex;*/
+    border-radius: 10px;
+    /*width: 288px;*/
+    height: auto;
+    max-width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+    /*width: 80%;*/
+}
+
+
+
+
+
+
+
