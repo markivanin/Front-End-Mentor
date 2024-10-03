@@ -1,1 +1,42 @@
 @charset "UTF-8";
+/*Test for the following widths
+    - Mobile: 375px
+    - Desktop: 1440px
+*/
+
+/*Todo
+   - use font face -> how will it work with multiple fonts
+   - how do i use multiple fonts
+   - how do i know what size to make stuff
+   */
+
+
+/*@font-face {
+    font-family: 'FontName';
+    src: url('FileName.eot');
+    src: url('FileName.eot?#iefix') format('embedded-opentype'), url('FileName.woff') format('woff'), url('FileName.ttf') format('truetype'), url('FileName.svg#FontName') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}*/
+
+
+:root {
+    /*Colors*/
+    --bg-color: hsl(47, 88%, 63%); /*BG & Hover Color*/
+    --card-bg-color: hsl(0, 0%, 100%); /*Card BG-Color*/
+    --primary-text-color: hsl(0, 0%, 7%); /*Title, Name, & Tag*/
+    --secondary-text-color: hsl(0, 0%, 42%); /*Date & paragraph*/
+
+    /*Font Attributes*/
+    --font-weight1: 800;
+    --font-weight2: 500;
+    --font-size1: 16px;
+}
+
+body {
+    font-size: var(--font-size1);
+}
+
+.blog-preview {
+    /*font-family: Figtree;*/
+}
